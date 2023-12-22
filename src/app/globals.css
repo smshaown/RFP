@@ -1,8 +1,62 @@
+/* Font Family  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.container {
+  max-width: 1140px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 0 auto;
+}
+
 :root {
+  --body-background-color: #f4f5f6;
+  --title-color: #1c3443;
+  --heading-color: #00283b;
+  --tabs-border-color: #00699b;
+  --tabs-active-background-color: #00699b;
+  --text-color: #00699b;
+}
+
+.displayBodyColor {
+  background-color: var(--body-background-color);
+}
+
+.title-color {
+  color: #1c3443;
+}
+
+.heading-color {
+  color: var(--heading-color);
+}
+
+.tabs-text-color {
+  color: var(--text-color);
+}
+
+/* Tab active color  */
+.tab-button {
+  color: #00699b;
+  /* background-color: #9087e4; */
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+  margin: 0px 10px 12px 0px;
+  border: 1px solid var(--tabs-border-color);
+}
+
+.tab-button.active {
+  background-color: #00699b;
+  color: #fff;
+}
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +78,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
+
+/* OwlCarouselComponent.css */
+/* Add this CSS to your stylesheets or inline styles in your React component */
