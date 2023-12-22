@@ -9,6 +9,7 @@ import VideoPlayer from "./VideoPlayer";
 
 const WinMoreSection = () => {
     return (
+        
         <div className="container">
             <h2 className="font-extrabold text-[42px] heading-color text-center">Win more, do more with our complete RFX platform</h2>
 
