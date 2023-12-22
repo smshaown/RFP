@@ -4,9 +4,10 @@ import logo from '../../Image/Responsive_logo_reverse.png';
 import img1 from '../../Image/soc-1.webp';
 const Footer = () => {
     return (
-        <div className="bg-[#00283B]">
-            <div className="container pt-[90px] pb-[20px]">
-                <div className="flex justify-between items-center ">
+        <div className="bg-[#00283B] mt-10">
+            <div className="container">
+               <div className="py-12">
+               <div className="flex md:flex-row flex-col justify-between md:items-center items-left ">
                     <div>
                         <div className="w-[210px]"><Image className="w-full h-full mb-[15px]" src={logo} alt="logo" /></div>
                         <h5 className="text-white text-[16px] mb-[20px]">Get started with the leader in strategic response management</h5>
@@ -45,6 +46,7 @@ const Footer = () => {
                         < Image className="w-[70px] h-[70px] object-cover" src={img2} alt="" />
                     </div>
                 </div>
+               </div>
             </div>
         </div>
     );

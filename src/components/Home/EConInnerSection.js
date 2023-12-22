@@ -5,7 +5,7 @@ import Button from "../common/Button/Button";
 const EConInnerSection = () => {
     return (
         <div className="container">
-           <div className="flex md:flex-row flex-col items-center gap-4">
+           <div className="flex md:flex-row flex-col items-center my-28 gap-4">
              <div className="w-full md:w-1/2">
                 <h2 className="font-extrabold text-[42px] heading-color leading-[52px]">No. 1 in RFP Software and more on G2</h2>
                 <div>

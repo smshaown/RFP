@@ -44,8 +44,8 @@ const CustomSliderTab = () => {
   return (
     <div className="relative">
       <BackgroundShape />
-      <div className="container py-16">
-        <div className="flex md:flex-row flex-col mt-12 gap-4">
+      <div className="container">
+        <div className="flex md:flex-row flex-col pt-[120px] gap-4">
           {/* Left side  */}
           <div className="md:w-1/2 w-full">
             <div>
