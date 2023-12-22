@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import img from '../../Image/Responsive_Report.webp';
+import BackgroundShape from '../common/BackgroundShape';
 import Title from '../common/Title';
 
 const GetEssentialSection = () => {
     return (
+    <div className='relative'>
+        <BackgroundShape />
         <div className='container'>
             <div className="flex md:flex-row flex-col gap-8">
                 <div className="md:w-1/2 w-full">
@@ -19,6 +22,7 @@ const GetEssentialSection = () => {
                 </div>
             </div>
         </div>
+    </div>
     );
 };
 
