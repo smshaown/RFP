@@ -12,8 +12,7 @@ const Banner = () => {
         loop: 0,
       });
 
-    return (
-        // style={{clipPath: "polygon(13% 91%, 0% 100%, 0 0, 100% 0, 100% 100%, 93% 94%, 82% 88%, 73% 85%, 64% 83%, 60% 82%, 40% 82%, 23% 86%)"}}
+    return (       
         <div className="displayBodyColor w-full" >
             <div className="container">
                 <div className="flex md:flex-row justify-center items-center flex-col gap-4 py-12">

@@ -1,10 +1,10 @@
 const BackgroundShape = ({className, svgColor}) => {
     
   return (
-    <div className={`${className} absolute top-0 w-full -rotate-180`}>
+    <div className={`${className} absolute -top-[20px] w-full -rotate-180`}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1000 100"
+        viewBox="10 0 990 110"
         preserveAspectRatio="none"
         className={`${svgColor} fill-[#F4F5F6]`}
       >

@@ -11,7 +11,7 @@ const WinMoreSection = () => {
     return (
         
         <div className="container">
-            <h2 className="font-extrabold text-[42px] heading-color text-center">Win more, do more with our complete RFX platform</h2>
+            <h2 className="font-extrabold text-[42px] heading-color text-center pt-12">Win more, do more with our complete RFX platform</h2>
 
             <div className="flex md:flex-row flex-col items-center gap-12 mt-12">
                 <div className="md:w-1/2 w-full border">
