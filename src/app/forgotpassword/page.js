@@ -24,7 +24,7 @@ const Page = () => {
 						
 						<div className="flex flex-row justify-center items-center">
                             
-							<button className="bg-[#9ACA3F] text-white text-sm rounded-md py-2 px-5 font-bold  uppercase ">send me the link</button>
+							<button className="bg-primaryColor text-white text-sm rounded-md py-2 px-5 font-bold  uppercase ">send me the link</button>
 						</div>
                 </form>
 

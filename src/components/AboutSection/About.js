@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="relative">
       <BackgroundShape svgColor="fill-white" />
-      <div className="displayBodyColor py-24 mt-10">
+      <div className="bg-displayBodyColor py-24 mt-10">
         <WinMoreSection />
         <WhyCustomers />
         <RealizeMoreSection />

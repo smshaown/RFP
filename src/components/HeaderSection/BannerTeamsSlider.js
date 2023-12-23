@@ -18,7 +18,7 @@ const BannerTeamsSlider = () => {
 
     return (
         <div>
-            <h2 className="font-bold text-[32px] heading-color text-center mt-[50px] mb-4">Trusted by the world’s best response teams</h2>
+            <h2 className="font-bold text-[32px] text-headingColor text-center mt-[50px] mb-4">Trusted by the world’s best response teams</h2>
             {/* slider  */}
             <div className="pb-20 pt-5">
             <Marquee>

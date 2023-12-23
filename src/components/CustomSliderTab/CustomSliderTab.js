@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import img4 from "../../Image/tabsImg/tab4.png";
 import img1 from "../../Image/tabsImg/tabs1.webp";
 import img2 from "../../Image/tabsImg/tabs2.webp";
 import img3 from "../../Image/tabsImg/tabs3.webp";
 import BackgroundShape from "../common/BackgroundShape";
+import Link from "../common/Link";
 
 const CustomSliderTab = () => {
   const tabs = ["tab1", "tab2", "tab3", "tab4"];
@@ -58,7 +58,7 @@ const CustomSliderTab = () => {
           </div>
           {/* right side  */}
           <div className="md:w-1/2 w-full">
-            <h2 className="font-extrabold text-[42px] heading-color leading-[52px]">
+            <h2 className="font-extrabold text-[42px] text-headingColor leading-[52px]">
               Solve your biggest response challenges
             </h2>
             <div className="tab-container mt-[40px]">
@@ -96,16 +96,10 @@ const CustomSliderTab = () => {
                           available. If you’re struggling to manage RFPs, we
                           have the answer.
                         </p>
-                        <div className="mt-[10px] tabs-text-color relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#00699b] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                          {" "}
-                          <a
-                            className="text-[16px] font-bold flex flex-row gap-2 items-center"
-                            href="#"
-                          >
-                            Discover our RFP software solution
-                            <FaArrowRight className="ml-1" />
-                          </a>
+                        <div className="mt-[10px]">
+                        <Link Link=" Discover our RFP software solution" />                         
                         </div>
+                       
                       </div>
                     )}
                     {tab === "tab2" && (
@@ -116,15 +110,8 @@ const CustomSliderTab = () => {
                           efficiency, collaborate with subject matter experts
                           and much more.{" "}
                         </p>
-                        <div className="mt-[10px] tabs-text-color relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#00699b] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                          {" "}
-                          <a
-                            className="text-[16px] font-bold flex flex-row gap-2 items-center"
-                            href="#"
-                          >
-                            Discover our DDQ software solution
-                            <FaArrowRight className="ml-1" />
-                          </a>
+                        <div className="mt-[10px]">
+                          <Link Link="Discover our DDQ software solution" />
                         </div>
                       </div>
                     )}
@@ -136,15 +123,8 @@ const CustomSliderTab = () => {
                           software solution helps you stand out so you can
                           advance deals.
                         </p>
-                        <div className="mt-[10px] tabs-text-color relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#00699b] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                          {" "}
-                          <a
-                            className="text-[16px] font-bold flex flex-row gap-2 items-center"
-                            href="#"
-                          >
-                            Discover our RFI software solution
-                            <FaArrowRight className="ml-1" />
-                          </a>
+                        <div className="mt-[10px]">
+                          <Link Link=" Discover our RFI software solution" />
                         </div>
                       </>
                     )}
@@ -156,16 +136,9 @@ const CustomSliderTab = () => {
                           available. If you’re struggling to manage RFPs, we
                           have the answer.{" "}
                         </p>
-                        <div className="mt-[10px] tabs-text-color relative  w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#00699b] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
-                          {" "}
-                          <a
-                            className="text-[16px] font-bold flex flex-row gap-2 items-center"
-                            href="#"
-                          >
-                            Discover our security questionnaire software
-                            solution
-                            <FaArrowRight className="ml-1" />
-                          </a>
+                        <div className="mt-[10px]">
+                          <Link Link="Discover our security questionnaire software
+                            solution" />
                         </div>
                       </>
                     )}

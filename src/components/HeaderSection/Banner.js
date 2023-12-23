@@ -13,19 +13,19 @@ const Banner = () => {
       });
 
     return (       
-        <div className="displayBodyColor w-full" >
+        <div className="bg-displayBodyColor w-full" >
             <div className="container">
                 <div className="flex md:flex-row justify-center items-center flex-col gap-4 py-12">
                     <div className="md:w-1/2 w-full">
-                        <h3 className="title-color text-[14px] 
+                        <h3 className="text-titleColor text-[14px] 
                          uppercase font-bold">STRATEGIC RESPONSE MANAGEMENT & RFP SOFTWARE</h3>
-                         <h1 className="text-[58px] heading-color font-bold font-titleFont">Be more</h1>
+                         <h1 className="text-[58px] text-headingColor font-bold font-titleFont">Be more</h1>
                          <div>
-                            <span className="heading-color text-[58px]  font-bold">{text}</span>
+                            <span className="text-headingColor text-[58px]  font-bold">{text}</span>
                              <Cursor />
                          </div>
                          <p className="text-[22px] font-light mt-2">
-                         Respond with confidence to every information request <span className="font-bold heading-color">(RFP, RFI, ESG, DDQ, security questionnaire and more)</span> — generating more revenue with less risk through better collaboration and automation.
+                         Respond with confidence to every information request <span className="font-bold text-headingColor">(RFP, RFI, ESG, DDQ, security questionnaire and more)</span> — generating more revenue with less risk through better collaboration and automation.
                          </p>
                          <Button button="CONTACT SALES" />
                     </div>

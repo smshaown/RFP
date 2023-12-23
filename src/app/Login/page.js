@@ -27,7 +27,7 @@ const Page = () => {
 						</div>
 						<div className="flex flex-row justify-between items-center">
                             <Link href="forgotpassword" className="text-sm py-4 text-[#002D74] hover:underline">Forgot password?</Link>
-							<button className="bg-[#9ACA3F] text-white text-sm rounded-md px-2.5 font-bold py-1 uppercase ">Login</button>
+							<button className="bg-primaryColor text-white text-sm rounded-md px-2.5 font-bold py-1 uppercase ">Login</button>
 						</div>
                 </form>
 

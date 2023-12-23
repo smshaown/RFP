@@ -1,9 +1,11 @@
 "use client"
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [openNav, setOpenNav] = useState(false);
+  const currentPath = usePathname();
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,8 +24,8 @@ const Navbar = () => {
   const navList = (
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <li className="p-1 font-normal flex items-center gap-3">
-        <Link href="/">Home</Link>
-        <Link href="/Login">Login</Link>
+        <Link href="/" className={currentPath==="/"?'active-link':''}>Home</Link>
+        <Link href="/Login" className={currentPath==="/Login"?'active-link':''}>Login</Link>
       </li>
     </ul>
   );

@@ -12,25 +12,20 @@
 }
 
 :root {
-  --body-background-color: #f4f5f6;
-  --title-color: #1c3443;
-  --heading-color: #00283b;
   --tabs-border-color: #00699b;
   --tabs-active-background-color: #00699b;
   --text-color: #00699b;
 }
 
-.displayBodyColor {
-  background-color: var(--body-background-color);
+.active-link{
+  color: red !important;
 }
 
-.title-color {
-  color: #1c3443;
-}
+/* .pending-link{
+  color: green !important;
+} */
 
-.heading-color {
-  color: var(--heading-color);
-}
+
 
 .tabs-text-color {
   color: var(--text-color);
@@ -54,30 +49,3 @@
   color: #fff;
 }
 
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
-/* OwlCarouselComponent.css */
-/* Add this CSS to your stylesheets or inline styles in your React component */
